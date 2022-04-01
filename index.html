@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+    <title>restaurante</title>
+    <link rel="stylesheet" href="./estilo/style.css">
+    <link rel="stylesheet" href="./estilo/cabecalho.css">
+    <link rel="stylesheet" href="./estilo/variedade.css">
+    <link rel="stylesheet" href="./estilo/funcionamento.css">
+    <link rel="stylesheet" href="./estilo/footer.css">
+</head>
+<body>
+    <header>
+        <span>Churrascaria Lorem</span>
+        <nav id="nav">
+            <button aria-label="abrir menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu" aria-expanded="false">
+                <span id="hamburger"></span>
+            </button>
+            <ul class="menu" role="menu">
+              <li><a href="#">Menu</a></li>
+              <li><a href="#">Locais</a></li>
+              <li><a href="#">Quem Somos</a></li>
+              <li><a href="#">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main class="conteudo-principal" id="projeto">
+        <img id="img" src="./imagens/restaurante-black.jpg" alt="">
+        <section class="paineis">
+            <h1 class="titulo">Variedades</h1>
+            <div class="imagem-painel projeto1 mostrar"></div>
+            <div class="imagem-painel projeto2"></div>
+            <div class="imagem-painel projeto3"></div>
+            <a href="#projetos" id="btn-avancar" class="seta btn-avancar">avançar</a>
+            <a href="#projetos" id="btn-voltar" class="seta btn-voltar">voltar</a>
+        </section>
+        
+        <section>
+            <h2>Funcionamento</h2>
+            <div id="funcionamento">
+                    <div class="dia"><i class="fa-regular fa-calendar-check"></i><br>Segunda <br>10H ás 13H <br>é<br> 19H ás 23H.</div>
+                    <div class="dia"><i class="fa-regular fa-calendar-check"></i><br>Terça <br>10H ás 13H <br>é<br> 19H ás 23H.</div>
+                    <div class="dia"><i class="fa-regular fa-calendar-check"></i><br>Quarta <br>10H ás 13H <br>é<br> 19H ás 23H.</div>
+                    <div class="dia"><i class="fa-regular fa-calendar-check"></i><br>Quinta <br>10H ás 13H <br>é<br> 19H ás 23H.</div>
+                    <div class="dia"><i class="fa-regular fa-calendar-check"></i><br>Sexta <br>10H ás 13H <br>é<br> 19H ás 23H.</div>
+                    <div class="dia"><i class="fa-regular fa-calendar-check"></i><br>Sábado <br>10H ás 13H <br>é<br> 19H ás 24H.</div>
+                    <div class="dia"><i class="fa-regular fa-calendar-check"></i><br>Domingo <br>10H ás 16H.</div>
+                    <div class="dia"><i class="fa-regular fa-calendar-check"></i><br>Feriados <br>15H ás 19H.</div>
+            </div>
+            <h3><i class="fa-solid fa-champagne-glasses"></i><br>Faça sua Reserva!</h3>  
+        </section>
+    </main>
+        <footer>
+                <div class="rede-sociais item-1"><a href="#"><i class="fa-brands fa-whatsapp icone"></i><br>99999-9999</a></div>
+                <div class="rede-sociais item-2"><a href="#"><i class="fa-solid fa-envelope icone"></i><br>lorem@gmail.com</a></div>
+                <div class="rede-sociais item-3"><a href="#"><i class="fa-brands fa-google icone"></i><br>restaurante Lorem</a></div>
+        </footer>
+    </script>
+</body>
+<script src="src/js/painel.js"></script>
+<script src="https://kit.fontawesome.com/ecc008fe01.js" crossorigin="anonymous"></script>
+<script src="src/mobile-navbar.js"></script>
+</html>

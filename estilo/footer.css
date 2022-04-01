@@ -1,0 +1,43 @@
+footer{
+    background-color: #23232e;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    height: 120px;
+}
+.rede-sociais{
+    flex-wrap: wrap;
+    text-align: center;
+    width: 150px;
+    margin: 5px;
+}
+.item-1{
+    min-height: 50px;
+}
+.item-2{
+    min-height: 50px;
+}
+.item-3{
+    min-height: 50px;
+}
+.icone{
+    font-size: 20px;
+    color: #dc143c;
+}
+footer a{
+    color: white;
+}
+footer a:hover{
+    color: crimson;
+}
+@media(max-width:1000px){
+    i{
+        font-size: 30px;
+    }
+    .top{
+        padding-top: 40px;
+        font-size: 55px;
+        color: blue;
+    }
+}

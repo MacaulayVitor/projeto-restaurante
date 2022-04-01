@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+.dia{
+    color: black;
+    font-family: 'Lobster', cursive;
+}
+#funcionamento{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 200px);
+    grid-auto-rows: 160px;
+    justify-content: space-around;
+}
+.dia{
+    margin: 60px;
+    height: 100px;
+    flex-direction: column;
+}
+i{
+    color: blue;
+    font-size: 50px;
+}
+h2{
+    font-size: 3rem;
+    margin-top: 30px;
+}
+h3{
+    font-size: 2rem;
+    text-align: center;
+    margin:15px 0 15px 0;
+}
+@media(mix-width:999px){
+    .dia{
+        margin: 30px;
+    }
+}
